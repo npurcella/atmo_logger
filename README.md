@@ -1,2 +1,2 @@
 # atmo_logger
-Atmosphere logger 
+Atmosphere logger, modeled after jmatt's threepio. 
