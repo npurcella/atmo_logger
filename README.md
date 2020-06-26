@@ -1,2 +1,2 @@
-# atmo-logger
+# atmo_logger
 Atmosphere logger 
