@@ -44,7 +44,7 @@ def initialize(logger_name=LOGGER_NAME,
     :param format: The format string to use :class: `str` or None.
     :param logger_class: The logger class to use
     :param handlers: List of handler instances to add.
-    :param global_logger: If true set threepio's global logger variable to this logger.
+    :param global_logger: If true set atmo-logger's global logger variable to this logger.
     """
     # If there is no format, use a default format.
     if not format:
