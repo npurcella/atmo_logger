@@ -9,7 +9,7 @@ import logging
 import sys
 from . import version
 
-__title__ = 'atmo-logger'
+__title__ = 'atmo_logger'
 __version__ = version.get_version(form='short')
 __author__ = 'CyVerse'
 __license__ = 'University of Arizona'
@@ -21,8 +21,8 @@ logger = None
 VERSION = version.VERSION
 version = version.get_version(form='verbose')
 
-LOGGER_NAME = "atmo-logger"
-LOG_FILENAME = "./atmo-logger.log"
+LOGGER_NAME = "atmo_logger"
+LOG_FILENAME = "./atmo_logger.log"
 APP_LOGGING_LEVEL = logging.DEBUG
 DEP_LOGGING_LEVEL = logging.INFO
 
@@ -44,7 +44,7 @@ def initialize(logger_name=LOGGER_NAME,
     :param format: The format string to use :class: `str` or None.
     :param logger_class: The logger class to use
     :param handlers: List of handler instances to add.
-    :param global_logger: If true set atmo-logger's global logger variable to this logger.
+    :param global_logger: If true set atmo_logger's global logger variable to this logger.
     """
     # If there is no format, use a default format.
     if not format:
